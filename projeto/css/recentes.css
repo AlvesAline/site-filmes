@@ -1,0 +1,145 @@
+header{
+    background-image: url(/projeto/img/Mortal_Kombat_2-ConversImagem.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.topo{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+
+.logo{
+    color:white;
+    font-size:20px;
+    padding-top: 10px;
+    padding-left: 10px;
+} 
+
+.pesquisa{
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    padding: 0px 9px;
+    background-color: hsl(0deg 0% 100% / 27%);
+}
+
+.pesquisaFilme {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    height: 24px;
+    background-color: transparent;
+    color: #fff;
+}
+.pesquisaFilme::placeholder{
+    color:#fff;
+}
+
+.botao {
+    
+    background-color: transparent;
+    height: 14px;
+    border: none;
+    outline: none;
+    margin-top: -12px;
+}
+
+.material-icons{
+    color: #fff;
+    background-color: transparent;
+}
+
+.navegacao ul {
+    padding:0px;
+    margin:0px;
+    
+    list-style:none;
+
+}
+
+.navegacao ul li{
+    display: inline;
+
+}
+
+.navegacao ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border-bottom:3px solid transparent;
+}
+
+
+.navegacao ul li a:hover {  
+    color: #6D6D6D;
+    border-bottom:3px solid #eaea00;
+}
+
+/* --- MAIN --- */
+
+.trailer-diversos{
+    margin-left: 450px;
+    color: white;
+}
+
+h1{
+padding:20px;
+text-align: center;
+color: white;
+font-size:30px;
+}
+
+h3{
+    text-align: center;
+    padding-top:20px;
+    margin-right: 500px;
+}
+
+/* --- FOOTER --- */
+
+.rodape {
+    margin-top: 10px;
+}
+
+.rodape-logo img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.rodapePrincipal{
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.rodape-redes-sociais{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.rodape-redes-sociais a{
+    background-color:#252525;
+    border-radius: 50px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rodape-redes-sociais img {
+    float: left;
+    margin-left: 10px;
+}
